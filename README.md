@@ -1,37 +1,24 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Plane Controller
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 4<br>
+**Conteúdo da Disciplina**: D&C<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0018604  | Hugo Sobral de Lima Salomão |
+| 18/0021974  | Leonardo da Silva Gomes |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O funcionamento do Plane Controller consiste na idealização de um cenário imaginário em que administradores de uma companhia aérea precisam gerar relatórios que informa quais são os aviões com o maior risco de colisão em um determinado momento T da trajetória compartilhada da empresa.
+Isto é, o Plane Controller é uma aplicação visual que permite ao usuário inserir, em um quadro que representa o mapa mundi, a posição dos diversos aviões que estão no ar em um determinado momento. A partir dos aviões informados, o sistema realiza uma sequência de cálculos para retornar o par de aviões que apresentam o maior risco de colisão, a partir disso, a central de monitoramento pode realizar as tomadas de decisão de rotas com base em um sistema confiável. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
+**Linguagem**: JavaScript<br>
+**Framework**: React JS<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
