@@ -15,17 +15,17 @@ function menorY(coordA, coordB) {
 }
 
 function dist(coordA, coordB) {
-    xPower = Math.pow(menorX(coordA, coordB), 2);
-    yPower = Math.pow(menorY(coordA, coordB), 2);
+    xPower = (coordA.x - coordB.x) * (coordA.x - coordB.x);
+    yPower = (coordA.y - coordB.y) * (coordA.y - coordB.y);
 
-    return Math.sqrt(xPower + yPower);  
+    return Math.sqrt(xPower + yPower);
 }
 
 function forcaBruta(arr, n) {
     min = Number.MAX_VALUE;
 
     for (let i=0; i<n; i++) {
-        for (let j=0; j<n; j++) {
+        for (let j=i+1; j<n; j++) {
             mem = dist(arr[i], arr[j]);
             if (mem < min)
             min = mem;
