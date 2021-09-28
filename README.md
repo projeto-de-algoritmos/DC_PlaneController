@@ -19,14 +19,35 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 ## Instalação 
 **Linguagem**: JavaScript<br>
 **Framework**: React JS<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+
+Para rodar o projeto, você precisa seguir as seguintes instruções:
+
+1. Clonar o repositório
+```
+git clone https://github.com/projeto-de-algoritmos/DC_PlaneController.git
+```
+
+2. Entrar na pasta raíz do projeto e instalar as dependências por meio de:
+```
+npm install
+```
+ou então
+```
+yarn install
+```
+
+3. Inicializar a aplicação
+```
+npm start
+```
+ou então
+```
+yarn start
+```
+
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
+O uso do Plane Controller é bastante simples, interativo e objetivo. <br/>
+Ao entrar no site, você irá se deparar com a visualização de um mapa. Este mapa é um componente clicável e, a cada clique, você adiciona um avião na sua respectiva posição. <br/>
+Quando você finalmente adicionar todos os aviões ao mapa, você deve então clicar no botão ```menor distância``` para que o app possa gerar o relatório e te informar sobre os possíveis riscos de colisão entre aeronaves.
 
