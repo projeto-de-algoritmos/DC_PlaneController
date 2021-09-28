@@ -1,0 +1,17 @@
+.MapWrap {
+  width: 82%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.mapboxgl-control-container {
+  display: none;
+}
+
+.mapboxgl-canvas-container {
+  height: 100%;
+  width: 80%;
+}
+
